@@ -1,28 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" >
+    <link href="style.css" rel="stylesheet">
     <title>Создатели сайтов</title>
 </head>
+
 <body>
-    <nav>
+    <header>
         <a class="logo-link" href="#">
             <img src="img/logo.svg" alt="logo" class="nav-logo">
         </a>
-        <div class="nav-container">
+        <nav>
             <a class="nav-item" href="#">О нас</a>
             <a class="nav-item" href="#">Что мы делаем</a>
             <a class="nav-item" href="#">Услуги</a>
             <a class="nav-item" href="#">Преимущества</a>
             <a class="nav-item" href="#">Портфолио</a>
             <a class="nav-item" href="#">Связаться</a>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section>
-        
+    <section id="main">
+        <div class="main-content">
+            <h1 class="main-header">Мы создаём сайты</h1>
+            <div class="drag-container">
+                <div class="progress"></div>
+                <div class="drag-text">Потяните кнопку вправо</div>
+                <a class="main-btn" href="#">
+                    ➜
+                </a>
+            </div>
+        </div>
+        <div class="background">
+            <img src="img/background/circle1.svg" class="circle1">
+            <img src="img/background/circle2.svg" class="circle2">
+            <img src="img/background/circle3.svg" class="circle3">
+            <img src="img/background/circle-bordered.svg" class="circle-bordered">
+            <img src="img/background/circle-dashed-border.svg" class="circle-dashed-border">
+            <img src="img/background/triangle.svg" class="triangle">
+            <img src="img/background/octagon.svg" class="octagon">
+        </div>
     </section>
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">О нас</h2>
+            <p class="about-text">Наше агентство занимается созданием и поддержкой веб-сайтов. Вы можете заказать у нас, как полный цикл разработки, так и доработку уже готового сайта. 
+                Мы обладаем большим опытом и хорошими отзывами. Всегда стремимся сделать свою работу качественно и в оговоренные сроки. А цены у нас одни из самых низких на рынке.
+                </p>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
+
 </html>
