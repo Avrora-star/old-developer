@@ -197,6 +197,7 @@ nav {
     margin:auto;
     width:70%;
     padding:100px 15px;
+    text-align: center;
 }
 
 .section-title {
@@ -209,6 +210,74 @@ nav {
     font-size:20px;
     line-height:30px;
 }
+
+.do-left {
+    width:45%;
+    display:inline-block;
+}
+
+.do-right {
+    width:45%;
+    display:inline-block;
+}
+
+#do {
+    background:linear-gradient(7deg, #db7e7e 18%, #ffc997 70%, #ffffff 70%);
+}
+
+.do-text {
+   background-color:white;
+   border-radius:30px;
+   box-shadow:10px 10px 0 #e06161;
+   padding:30px;
+}
+
+#cards {
+    background:linear-gradient(340.62deg, #FFFFFF 45.63%, #db7e7e 45.64%);
+}
+
+.card {
+    margin:30px;
+    width:23%;
+    display:inline-block ;
+    padding:20px;
+    height:450px;
+    border:3px solid rgb(245, 209, 154);
+    border-radius:20px;
+    background-color:white;
+}
+
+.card img {
+    width:80%;
+    display: block;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.card h3 {
+    text-align: center;
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom:10px
+}
+
+.card hr {
+    background-color:rgb(255, 125, 125);
+    width:80%;
+    height:3px;
+    margin:auto;
+    margin-bottom:10px;
+}
+
+.card p {
+    text-align:center;
+    line-height:27px;
+}
+
+#lox {
+    transform:translateY(27px);
+}
+
 
 @keyframes move-up-left {
  0% {
