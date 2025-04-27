@@ -278,6 +278,45 @@ nav {
     transform:translateY(27px);
 }
 
+.advantages-card {
+    width:800px;
+    border: 5px solid #ffc997;
+    border-radius:15px;
+    padding:20px;
+    margin: 50px auto;
+    box-shadow:10px 10px 0px #e06161;
+    text-align:left;
+}
+
+.advantages-card-title {
+    font-size:25px;
+    margin-bottom:15px;
+}
+
+.advantages-list {
+    margin-left:20px;
+    list-style-type: circle;
+}
+
+.adv-card1 {
+    position:relative;
+    left:-100px;
+}
+
+.adv-card2 {
+    position:relative;
+    right:-100px;
+}
+
+.adv-card3 {
+    position:relative;
+    left:-80px;
+}
+
+.advantages-bg {
+    position:absolute;
+    background-color:black;
+}
 
 @keyframes move-up-left {
  0% {
