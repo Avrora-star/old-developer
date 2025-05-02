@@ -286,6 +286,7 @@ nav {
     margin: 50px auto;
     box-shadow:10px 10px 0px #e06161;
     text-align:left;
+    background-color: white;
 }
 
 .advantages-card-title {
@@ -315,7 +316,27 @@ nav {
 
 .advantages-bg {
     position:absolute;
-    background-color:black;
+    top:0 ;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+#advantages {
+position: relative;
+}
+
+.adv-circle {
+    position:absolute;
+    bottom: 0;
+    right:0;
+}
+
+.adv-hexagon {
+    position:sticky;
+    top:40%;
+    
 }
 
 @keyframes move-up-left {
