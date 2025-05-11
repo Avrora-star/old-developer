@@ -374,11 +374,11 @@ nav {
 }
 
 .contact-us-title {
-    color:white;
+    color: white;
 }
 
 #contact-us {
-    background-image:linear-gradient(#db7e7e,#ffc997);
+    background-image: linear-gradient(#db7e7e, #ffc997);
 }
 
 @keyframes move-up-left {
@@ -446,4 +446,77 @@ nav {
     100% {
         transform: rotate(359deg) translate(0, 0);
     }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: fit-content;
+    }
+
+    .nav-logo {
+        width: 80px;
+    }
+
+    .nav-item {
+        display: block;
+        margin-left:0;
+        line-height:3vh;
+        font-size:20px;
+    }
+
+    .nav-item:hover {
+        transform:scale(1.05);
+    }
+
+    nav {
+        float: none;
+    }
+
+    .main-header {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .do-left {
+        display: block;
+        width: 100%;
+    }
+
+    .do-right {
+        display: block;
+        width: 100%;
+        margin-top :35px;
+    }
+    
+    .do-right img {
+        width: 100%;
+        margin:0;
+    }
+
+    .advantages-card {
+        width: 100%;
+    }
+
+    .adv-card1, .adv-card2, .adv-card3 {
+        left:0;
+    }
+
+    .section-title {
+        font-size:30px;
+    }
+
+    .section-text {
+        font-size:16px;
+        text-align: left;
+    }
+
+    .container {
+        width:90%;
+    }
+
+    .do-text {
+        box-shadow: 0 15px 0 #e06161;
+    }
+
+
 }
