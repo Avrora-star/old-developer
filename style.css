@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+html {
+ scroll-behavior:smooth;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -56,7 +62,7 @@ nav {
 }
 
 .drag-container {
-    width: 500px;
+    width: 350px;
     height: 70px;
     background-color: #f0f0f0;
     border-radius: 50px;
@@ -518,5 +524,14 @@ nav {
         box-shadow: 0 15px 0 #e06161;
     }
 
+    .card {
+        width: 80%;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+        height: 230px;
+    }
 
 }
